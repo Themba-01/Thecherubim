@@ -1,0 +1,51 @@
+@page "/productlist"
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+@using EnterpriseAppFrontend.Services  // This is where ProductService is located
+@using EnterpriseAppFrontend.Models    // This is where the Product class is located
+@inject ProductService ProductService
+@inject NavigationManager NavigationManager
+
+
+<h3>Product List</h3>
+
+@if (products == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var product in products)
+        {
+            <li>
+                @product.Name - @product.Price
+                <button @onclick="() => EditProduct(product.Id)">Edit</button>
+                <button @onclick="() => DeleteProduct(product.Id)">Delete</button>
+            </li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Product> products;
+
+    // Fetch products when the component initializes
+    protected override async Task OnInitializedAsync()
+    {
+        products = await ProductService.GetProductsAsync();
+    }
+
+    // Delete a product
+    private async Task DeleteProduct(int id)
+    {
+        await ProductService.DeleteProductAsync(id);
+        products = await ProductService.GetProductsAsync();  // Refresh the list
+    }
+
+    // Navigate to the edit page for a product
+    private void EditProduct(int id)
+    {
+        NavigationManager.NavigateTo($"/editproduct/{id}");
+    }
+}

@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <!-- Add Project Reference to Core Project -->
+  <ItemGroup>
+    <ProjectReference Include="..\EnterpriseApp.Core\EnterpriseApp.Core.csproj" />
+  </ItemGroup>
+
+</Project>

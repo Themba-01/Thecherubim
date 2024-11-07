@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk.BlazorWebAssembly">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Add necessary Blazor WebAssembly package dependencies -->
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="8.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.DevServer" Version="8.0.8" PrivateAssets="all" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add references to the Application and Core projects -->
+    <ProjectReference Include="..\EnterpriseApp.Application\EnterpriseApp.Application.csproj" />
+    <ProjectReference Include="..\EnterpriseApp.Core\EnterpriseApp.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Add any other necessary dependencies -->
+    <!-- For example, if your Blazor WebAssembly app is calling APIs, you need to ensure HttpClient is available -->
+    <PackageReference Include="Microsoft.Extensions.Http" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>

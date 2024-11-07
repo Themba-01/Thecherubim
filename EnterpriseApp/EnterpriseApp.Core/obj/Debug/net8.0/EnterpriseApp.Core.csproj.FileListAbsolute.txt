@@ -1,0 +1,12 @@
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/bin/Debug/net8.0/EnterpriseApp.Core.deps.json
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/bin/Debug/net8.0/EnterpriseApp.Core.dll
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/bin/Debug/net8.0/EnterpriseApp.Core.pdb
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.AssemblyInfoInputs.cache
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.AssemblyInfo.cs
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.csproj.CoreCompileInputs.cache
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.sourcelink.json
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.dll
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/refint/EnterpriseApp.Core.dll
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/EnterpriseApp.Core.pdb
+/workspaces/Thecherubim/EnterpriseApp/EnterpriseApp.Core/obj/Debug/net8.0/ref/EnterpriseApp.Core.dll
